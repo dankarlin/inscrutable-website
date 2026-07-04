@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/siteicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/siteicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Inscrutable - Empowering the Voiceless and Underserved</title>
+    <meta name="title" content="Inscrutable - Empowering the Voiceless and Underserved" />
+    <meta name="description" content="Inscrutable provides innovative solutions to pressing problems and empowers people in underserved and marginalized communities through social justice, advocacy training, and community organizing." />
+    <meta name="keywords" content="social justice, community empowerment, advocacy training, marginalized communities, nonprofit, charity, volunteer" />
+    <meta name="author" content="Inscrutable" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://inscrutable.org/" />
+    <meta property="og:title" content="Inscrutable - Empowering the Voiceless and Underserved" />
+    <meta property="og:description" content="We provide innovative solutions to pressing problems and empower people in underserved and marginalized communities to create lasting change." />
+    <meta property="og:image" content="https://inscrutable.org/siteicon.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://inscrutable.org/" />
+    <meta property="twitter:title" content="Inscrutable - Empowering the Voiceless and Underserved" />
+    <meta property="twitter:description" content="We provide innovative solutions to pressing problems and empower people in underserved and marginalized communities to create lasting change." />
+    <meta property="twitter:image" content="https://inscrutable.org/siteicon.png" />
+    
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://inscrutable.org/" />
+    
+    <!-- Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="/dave.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="/martin.webp" as="image">
+    <link rel="preload" href="/sarah.webp" as="image">
+    <link rel="preload" href="/src/main.jsx" as="script">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Accessibility -->
+    <meta name="theme-color" content="#547780" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('SW registered: ', registration);
+            })
+            .catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

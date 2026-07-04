@@ -1,0 +1,27 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#547780"/>
+  
+  <!-- Letter "I" for Inscrutable with modern twist -->
+  <g transform="translate(16, 16)">
+    <!-- Main vertical bar with gradient effect -->
+    <rect x="-2" y="-12" width="4" height="24" rx="2" fill="url(#gradient1)"/>
+    
+    <!-- Top and bottom serifs/accents -->
+    <rect x="-6" y="-12" width="12" height="2" rx="1" fill="#12d2bc"/>
+    <rect x="-6" y="10" width="12" height="2" rx="1" fill="#12d2bc"/>
+    
+    <!-- Sound/voice waves emanating from the center -->
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#70e3d6" stroke-width="1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#41dac8" stroke-width="0.5" opacity="0.2"/>
+  </g>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#12d2bc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#41dac8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#70e3d6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

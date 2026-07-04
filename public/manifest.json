@@ -1,0 +1,20 @@
+{
+  "name": "Inscrutable - Empowering the Voiceless",
+  "short_name": "Inscrutable",
+  "description": "Inscrutable provides innovative solutions to pressing problems and empowers people in underserved and marginalized communities through social justice, advocacy training, and community organizing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#547780",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/siteicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "nonprofit", "community"],
+  "lang": "en-US"
+}

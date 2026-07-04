@@ -1,0 +1,23 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" fill="#547780"/>
+  
+  <!-- Central circle representing the organization -->
+  <circle cx="16" cy="16" r="6" fill="#12d2bc"/>
+  
+  <!-- Surrounding circles representing community members -->
+  <circle cx="16" cy="6" r="3" fill="#41dac8"/>
+  <circle cx="16" cy="26" r="3" fill="#41dac8"/>
+  <circle cx="6" cy="16" r="3" fill="#41dac8"/>
+  <circle cx="26" cy="16" r="3" fill="#41dac8"/>
+  
+  <!-- Connecting lines showing unity and connection -->
+  <line x1="16" y1="9" x2="16" y2="23" stroke="#70e3d6" stroke-width="1.5"/>
+  <line x1="9" y1="16" x2="23" y2="16" stroke="#70e3d6" stroke-width="1.5"/>
+  
+  <!-- Small accent dots for additional visual interest -->
+  <circle cx="11" cy="11" r="1" fill="#70e3d6" opacity="0.7"/>
+  <circle cx="21" cy="11" r="1" fill="#70e3d6" opacity="0.7"/>
+  <circle cx="11" cy="21" r="1" fill="#70e3d6" opacity="0.7"/>
+  <circle cx="21" cy="21" r="1" fill="#70e3d6" opacity="0.7"/>
+</svg>
